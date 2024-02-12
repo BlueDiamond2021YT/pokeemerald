@@ -67,6 +67,6 @@ jobs:
           add: "*.sym"
           message: ${{ env.SYMBOLS_COMMIT_MSG }}
 
-      - name: arm-none-eabi-gcc GNU Arm Embedded Toolchain
-        uses: carlosperate/arm-none-eabi-gcc-action@v1.8.1
-            
+      - name: arm-none-eabi-gcc
+        uses: fiam/arm-none-eabi-gcc@v1.0.4
+      
